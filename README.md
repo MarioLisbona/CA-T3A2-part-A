@@ -35,11 +35,16 @@ This project aims to provide an online forum to allow people to share their trav
 
 ### Functionality / Features
 
-- 
+- Site Navigation
+- Member Account Creation
+- Post your travel story
+- Commenting on posts
+- Rate members travel stories
+- Find stories from your favourite continent
 
 ### Target Audience
 
-This application is aimed at people wishing to read stories from other people about their travels around the world. It is also for people wishing to share their stories and have discussions about these stories with an online community.
+This application is aimed at people wishing to read travek stories written by others about their adventures around the world. It is also for people wishing to share their own travel stories and have discussions about these stories with an online community.
 
 ### Tech Stack
 
@@ -153,3 +158,5 @@ User stories were then revised to reflect any changes to features and to provide
 ## **R5 - Wireframes for Desktop, Mobile and Tablet**
 
 ## **R6 - Screenshots of your Trello board**
+
+[Click to view Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
