@@ -44,7 +44,7 @@ This project aims to provide an online forum to allow people to share their trav
 
 ### Target Audience
 
-This application is aimed at people wishing to read travek stories written by others about their adventures around the world. It is also for people wishing to share their own travel stories and have discussions about these stories with an online community.
+This application is aimed at people wishing to read travel stories written by others about their adventures around the world. It is also for people wishing to share their own travel stories and have discussions about these stories with an online community.
 
 ### Tech Stack
 
