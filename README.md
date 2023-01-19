@@ -9,7 +9,7 @@
     - [Functionality / Features](#functionality--features)
     - [Target Audience](#target-audience)
     - [Tech Stack](#tech-stack)
-  - [**R2 - Dataflow Diagram**](#r2---dataflow-diagram)
+  - [**R2 - Dataflow Diagrams**](#r2---dataflow-diagrams)
   - [**R3 - Application Architecture Diagram**](#r3---application-architecture-diagram)
   - [**R4 - User Stories**](#r4---user-stories)
   - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
@@ -25,7 +25,11 @@
 
 ### Tech Stack
 
-## **R2 - Dataflow Diagram**
+## **R2 - Dataflow Diagrams**
+
+![DFDGuest](docs/DataFlowDiagram-GuestCR.png)
+![DFDMemberR](docs/DataFlowDiagram-MemberR.png)
+![DFDMemberCUD](docs/DataFlowDiagram-MemberCUD.png)
 
 ## **R3 - Application Architecture Diagram**
 
