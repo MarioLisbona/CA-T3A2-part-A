@@ -9,15 +9,21 @@
     - [Functionality / Features](#functionality--features)
     - [Target Audience](#target-audience)
     - [Tech Stack](#tech-stack)
+      - [Front-end](#front-end)
+      - [Back-end](#back-end)
+      - [Database](#database)
+      - [Deployment](#deployment)
+      - [Testing](#testing)
+      - [Project Management](#project-management)
+      - [DevOps Tools](#devops-tools)
+      - [Design Tools](#design-tools)
   - [**R2 - Dataflow Diagrams**](#r2---dataflow-diagrams)
   - [**R3 - Application Architecture Diagram**](#r3---application-architecture-diagram)
   - [**R4 - User Stories**](#r4---user-stories)
-    - [**Stage One**](#stage-one)
-      - [User - All](#user---all)
-      - [User - Member](#user---member)
-    - [**Stage Two**](#stage-two)
-      - [User - All / Guest](#user---all--guest)
-      - [User - Member](#user---member-1)
+    - [Stage One - User - All / Guest](#stage-one---user---all--guest)
+    - [Stage One - User - Member](#stage-one---user---member)
+    - [Stage Two - User - All / Guest](#stage-two---user---all--guest)
+    - [Stage Two - User - Member](#stage-two---user---member)
   - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
   - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
 
@@ -25,11 +31,62 @@
 
 ### Purpose
 
+This project aims to provide an online forum to allow people to share their travel stories, with the hope of creating social connections and a sense of community through users' shared love of travel. By having members share their travel stories, they are providing valuable information through a personal lens that other users can use to help plan their next adventure.
+
 ### Functionality / Features
+
+- 
 
 ### Target Audience
 
+This application is aimed at people wishing to read stories from other people about their travels around the world. It is also for people wishing to share their stories and have discussions about these stories with an online community.
+
 ### Tech Stack
+
+#### Front-end
+
+- HTML
+- CSS
+- JavaScript
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
+#### Back-end
+
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+
+#### Database
+
+- [MongoDB](https://www.mongodb.com/atlas/database)
+
+#### Deployment
+
+- [Netlify](https://www.netlify.com/)
+- [Railway](https://railway.app/)
+
+#### Testing
+
+- [Vitest](https://vitest.dev/)
+- [Jest](https://railway.app/)
+
+#### Project Management
+
+- [Trello](https://trello.com)
+- [Google Drive](https://www.google.com/intl/en_au/drive/)
+- [Discord](https://discord.com/)
+
+#### DevOps Tools
+
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [VS Code](https://code.visualstudio.com/)
+
+#### Design Tools
+
+- [Lucidchart](https://www.lucidchart.com/pages/)
+- [Draw.io](https://app.diagrams.net/)
 
 ## **R2 - Dataflow Diagrams**
 
@@ -43,11 +100,9 @@
 
 ## **R4 - User Stories**
 
-### **Stage One**
-
 Initial user stories were created to outline desired features that reflect the projects intended audience and purpose.
 
-#### User - All
+### Stage One - User - All / Guest
 
 - As a user I want a navigation bar to show me what is on the site.
 - As a user I want to read travel stories posted on the forum.
@@ -60,7 +115,7 @@ Initial user stories were created to outline desired features that reflect the p
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website.
 - As a user I want to be able to sign up to the forum.
 
-#### User - Member
+### Stage One - User - Member
 
 - As a member I want to write and post my own travel stories.
 - As a member I want to comment on other members' posts .
@@ -70,11 +125,9 @@ Initial user stories were created to outline desired features that reflect the p
 - As a member I want to be able to delete a post I made.
 - As a member, I want to be able to rate other members' posts.
 
-### **Stage Two**
-
 User stories were then revised to reflect any changes to features and to provide context for why specific features will be developed.
 
-#### User - All / Guest
+### Stage Two - User - All / Guest
 
 - As a user I want a navigation bar to show me what is on the site so I can navigate to my desired content.
 - As a user I want to read travel stories posted on the forum so I can learn about other people's trips.
@@ -87,7 +140,7 @@ User stories were then revised to reflect any changes to features and to provide
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website
 - As a user I want to be able to sign up to the forum so I can engage with and contribute to the forum community and use all the site features.
 
-#### User - Member
+### Stage Two - User - Member
 
 - As a member I want to write and post my own travel stories so I can tell the forum community about my trips.
 - As a member I want to comment on other members posts so I can ask them questions about their trip and tell them what I loved about their post.
