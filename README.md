@@ -33,6 +33,8 @@
 
 ## **R3 - Application Architecture Diagram**
 
+![AAD](docs/ApplicationArchitectureDiagram.png)
+
 ## **R4 - User Stories**
 
 ## **R5 - Wireframes for Desktop, Mobile and Tablet**
