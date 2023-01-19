@@ -47,7 +47,7 @@
 
 Initial user stories were created to outline desired features that reflect the projects intended audience and purpose.
 
-#### User - All
+#### User - All / Guest
 
 - As a user I want a navigation bar to show me what is on the site.
 - As a user I want to read travel stories posted on the forum.
