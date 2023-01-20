@@ -237,7 +237,6 @@ User stories were then revised to reflect any changes to features and to provide
 
 [Click to view Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
 
-Screenshots of our trello workspace throughout the design and documentation of Part A can be found [here](docs/Screenshots-PartA)
 Screenshots were taken at least daily and are dated in the file name.
 
 <details>
