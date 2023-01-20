@@ -20,10 +20,6 @@
   - [**R2 - Dataflow Diagrams**](#r2---dataflow-diagrams)
   - [**R3 - Application Architecture Diagram**](#r3---application-architecture-diagram)
   - [**R4 - User Stories**](#r4---user-stories)
-    - [Stage One - User - All / Guest](#stage-one---user---all--guest)
-    - [Stage One - User - Member](#stage-one---user---member)
-    - [Stage Two - User - All / Guest](#stage-two---user---all--guest)
-    - [Stage Two - User - Member](#stage-two---user---member)
   - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
   - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
 
@@ -112,7 +108,11 @@ This application is aimed at people wishing to read travel stories written by ot
 
 Initial user stories were created to outline desired features that reflect the projects intended audience and purpose.
 
-### Stage One - User - All / Guest
+<details>
+
+<summary>Stage One - User - All / Guest</summary>
+
+<br>
 
 - As a user I want a navigation bar to show me what is on the site.
 - As a user I want to read travel stories posted on the forum.
@@ -124,7 +124,13 @@ Initial user stories were created to outline desired features that reflect the p
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website.
 - As a user I want to be able to sign up to the forum.
 
-### Stage One - User - Member
+</details>
+
+<details>
+
+<summary>Stage One - User - Member</summary>
+
+<br>
 
 - As a member I want to write and post my own travel stories.
 - As a member I want to comment on other members' posts .
@@ -133,9 +139,17 @@ Initial user stories were created to outline desired features that reflect the p
 - As a member I want to be able to edit posts I have already made.
 - As a member I want to be able to delete a post I made.
 
+</details>
+
+<br>
+
 User stories were then revised to reflect any changes to features and to provide context for why specific features will be developed.
 
-### Stage Two - User - All / Guest
+<details>
+
+<summary>Stage Two - User - All / Guest</summary>
+
+<br>
 
 - As a user I want a navigation bar to show me what is on the site so I can navigate to my desired content.
 - As a user I want to read travel stories posted on the forum so I can learn about other people's trips.
@@ -147,7 +161,13 @@ User stories were then revised to reflect any changes to features and to provide
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website
 - As a user I want to be able to sign up to the forum so I can engage with and contribute to the forum community and use all the site features.
 
-### Stage Two - User - Member
+</details>
+
+<details>
+
+<summary>Stage Two - User - Member</summary>
+
+<br>
 
 - As a member I want to write and post my own travel stories so I can tell the forum community about my trips.
 - As a member I want to comment on other members posts so I can ask them questions about their trip and tell them what I loved about their post.
@@ -155,6 +175,10 @@ User stories were then revised to reflect any changes to features and to provide
 - As a member I want to comment on my own posts so I can answer any questions and engage with the community interested in my travel story.
 - As a member I want to be able to edit posts I have already made so I can fix any mistakes and keep my story up-to-date if I think of something I should have added..
 - As a member I want to be able to delete a post I made so I can remove posts that I’ve decided I don’t like anymore.
+
+</details>
+
+<br>
 
 ## **R5 - Wireframes for Desktop, Mobile and Tablet**
 
@@ -215,3 +239,18 @@ User stories were then revised to reflect any changes to features and to provide
 
 Screenshots of our trello workspace throughout the design and documentation of Part A can be found [here](docs/Screenshots-PartA)
 Screenshots were taken at least daily and are dated in the file name.
+
+<details>
+
+<summary>Trello Screenshots Part A</summary>
+
+<br>
+
+![17-1-23-1](docs/Screenshots-PartA/Trello-A-17-1-23-1.png)
+![17-1-23-2](docs/Screenshots-PartA/Trello-A-17-1-23-2.png)
+![18-1-23-1](docs/Screenshots-PartA/Trello-A-18-1-23-1.png)
+![18-1-23-2](docs/Screenshots-PartA/Trello-A-18-1-23-2.png)
+![20-1-23-1](docs/Screenshots-PartA/Trello-A-20-1-23-1.png)
+![20-1-23-2](docs/Screenshots-PartA/Trello-A-20-1-23-2.png)
+
+</details>
