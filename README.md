@@ -196,6 +196,19 @@ User stories were then revised to reflect any changes to features and to provide
 
 </details>
 
+<details>
+
+<summary>Color Pallet and Hero Image themes</summary>
+
+<br>
+
+![Color Pallet and Hero Image](./docs/ColorPalleteImageThemes-3.png)
+![Color Pallet and Hero Image](./docs/ColorPalleteImageThemes-2.png)
+![Color Pallet and Hero Image](./docs/ColorPalleteImageThemes-1.png)
+![Color Pallet and Hero Image](./docs/ColorPalleteImageThemes.png)
+
+</details>
+
 ## **R6 - Screenshots of your Trello board**
 
 [Click to view Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
