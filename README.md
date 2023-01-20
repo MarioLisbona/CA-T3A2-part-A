@@ -35,12 +35,17 @@ This project aims to provide an online forum to allow people to share their trav
 
 ### Functionality / Features
 
+- Read the latest travel stories
+- Find travel stories from your favourite continent
 - Site Navigation
 - Member Account Creation
 - Post your travel story
-- Commenting on posts
-- Rate members travel stories
-- Find stories from your favourite continent
+- Comment on posts
+
+Additional features to be added if time allows:
+
+- Allow members to rate posts
+- Allow members to add posts to their 'favourites'
 
 ### Target Audience
 
@@ -115,7 +120,6 @@ Initial user stories were created to outline desired features that reflect the p
 - As a user I want to see the latest forum posts.
 - As a user I want to see posts about a particular continent .
 - As a user I want to read other users' comments on travel posts.
-- As a user I want to see how a post has been rated.
 - As a user I want to be able to view an about page with information about the websites intended purpose and other background information.
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website.
 - As a user I want to be able to sign up to the forum.
@@ -128,7 +132,6 @@ Initial user stories were created to outline desired features that reflect the p
 - As a member I want to comment on my own posts.
 - As a member I want to be able to edit posts I have already made.
 - As a member I want to be able to delete a post I made.
-- As a member, I want to be able to rate other members' posts.
 
 User stories were then revised to reflect any changes to features and to provide context for why specific features will be developed.
 
@@ -140,7 +143,6 @@ User stories were then revised to reflect any changes to features and to provide
 - As a user I want to see the latest forum posts so I can keep up with current trends in travel and the forum community.
 - As a user I want to see posts about a particular continent  so I can find out more about that region and if I want to travel there.
 - As a user I want to read other users' comments on travel posts so I can see what others think to help me decide if I want to travel there.
-- As a user I want to see how a post has been rated so I can tell at a glance if I want to read it.
 - As a user I want to be able to view an about page with information about the websites intended purpose and other background information so I can get a better understanding of the creators intent
 - As a user I want to be able to view a contact page so I can message the creators about any issues with the website
 - As a user I want to be able to sign up to the forum so I can engage with and contribute to the forum community and use all the site features.
@@ -153,7 +155,6 @@ User stories were then revised to reflect any changes to features and to provide
 - As a member I want to comment on my own posts so I can answer any questions and engage with the community interested in my travel story.
 - As a member I want to be able to edit posts I have already made so I can fix any mistakes and keep my story up-to-date if I think of something I should have added..
 - As a member I want to be able to delete a post I made so I can remove posts that I’ve decided I don’t like anymore.
-- As a member, I want to be able to rate other members' posts so I can have my opinion on if their travel story was good.
 
 ## **R5 - Wireframes for Desktop, Mobile and Tablet**
 
