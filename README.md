@@ -157,6 +157,44 @@ User stories were then revised to reflect any changes to features and to provide
 
 ## **R5 - Wireframes for Desktop, Mobile and Tablet**
 
+![Register](./docs/Register.png)
+
+![Login](./docs/Login.png)
+
+<details>
+
+<summary>Guest Wireframes</summary>
+
+<br>
+
+![Landing Page](./docs/Navbar-Guest.png)
+![Landing Page](./docs/LandingPage-Guest.png)
+![Landing Page](./docs/BrowseAll-Guest.png)
+![Landing Page](./docs/BrowseByContinent-Guest.png)
+![Landing Page](./docs/FullPagePost-Guest.png)
+![Landing Page](./docs/Contact-Guest.png)
+![Landing Page](./docs/About-Guest.png)
+
+</details>
+
+<details>
+
+<summary>Member Wireframes</summary>
+
+<br>
+
+![member-navbar](./docs/Navbar-Member.png)
+![member-navbar](./docs/Homepage-Member.png)
+![member-navbar](./docs/BrowseAll-Member.png)
+![member-navbar](./docs/BrowseByContinent-Member.png)
+![member-navbar](./docs/FullPagePost-Member.png)
+![member-navbar](./docs/Contact-Member.png)
+![member-navbar](./docs/About-Member.png)
+![member-navbar](./docs/MyPosts-Member.png)
+![member-navbar](./docs/CreatePost-Member.png)
+
+</details>
+
 ## **R6 - Screenshots of your Trello board**
 
 [Click to view Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
