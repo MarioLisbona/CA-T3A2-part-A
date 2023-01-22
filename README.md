@@ -1,27 +1,19 @@
+<!-- omit in toc -->
 # **Coder Academy - Assignment T3A2 Part A - Full Stack MERN App Documentation: Submitted by Mario Lisbona and Callum Rowston**
 
-## **Table of contents**
-
-- [**Coder Academy - Assignment T3A2 Part A - Full Stack MERN App Documentation: Submitted by Mario Lisbona and Callum Rowston**](#coder-academy---assignment-t3a2-part-a---full-stack-mern-app-documentation-submitted-by-mario-lisbona-and-callum-rowston)
-  - [**Table of contents**](#table-of-contents)
-  - [**R1 - Description of your website**](#r1---description-of-your-website)
-    - [Purpose](#purpose)
-    - [Functionality / Features](#functionality--features)
-    - [Target Audience](#target-audience)
-    - [Tech Stack](#tech-stack)
-      - [Front-end](#front-end)
-      - [Back-end](#back-end)
-      - [Database](#database)
-      - [Deployment](#deployment)
-      - [Testing](#testing)
-      - [Project Management](#project-management)
-      - [DevOps Tools](#devops-tools)
-      - [Design Tools](#design-tools)
-  - [**R2 - Dataflow Diagrams**](#r2---dataflow-diagrams)
-  - [**R3 - Application Architecture Diagram**](#r3---application-architecture-diagram)
-  - [**R4 - User Stories**](#r4---user-stories)
-  - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
-  - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
+<!-- omit in toc -->
+## Table of Contents
+- [**R1 - Description of your website**](#r1---description-of-your-website)
+  - [Purpose](#purpose)
+  - [Functionality / Features](#functionality--features)
+  - [Target Audience](#target-audience)
+  - [Tech Stack](#tech-stack)
+- [**R2 - Dataflow Diagrams**](#r2---dataflow-diagrams)
+- [**R3 - Application Architecture Diagram**](#r3---application-architecture-diagram)
+- [**R4 - User Stories**](#r4---user-stories)
+- [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
+- [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
+  - [Planning Methodology](#planning-methodology)
 
 ## **R1 - Description of your website**
 
@@ -49,7 +41,7 @@ This application is aimed at people wishing to read travel stories written by ot
 
 ### Tech Stack
 
-#### Front-end
+**Front-end**
 
 - HTML
 - CSS
@@ -57,39 +49,39 @@ This application is aimed at people wishing to read travel stories written by ot
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 
-#### Back-end
+**Back-end**
 
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [Mongoose](https://mongoosejs.com/)
 
-#### Database
+**Database**
 
 - [MongoDB](https://www.mongodb.com/atlas/database)
 
-#### Deployment
+**Deployment**
 
 - [Netlify](https://www.netlify.com/)
 - [Railway](https://railway.app/)
 
-#### Testing
+**Testing**
 
 - [Vitest](https://vitest.dev/)
 - [Jest](https://railway.app/)
 
-#### Project Management
+**Project Management**
 
 - [Trello](https://trello.com)
 - [Google Drive](https://www.google.com/intl/en_au/drive/)
 - [Discord](https://discord.com/)
 
-#### DevOps Tools
+**DevOps Tools**
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 - [VS Code](https://code.visualstudio.com/)
 
-#### Design Tools
+**Design Tools**
 
 - [Lucidchart](https://www.lucidchart.com/pages/)
 - [Draw.io](https://app.diagrams.net/)
@@ -253,3 +245,20 @@ Screenshots were taken at least daily and are dated in the file name.
 ![20-1-23-2](docs/Screenshots-PartA/Trello-A-20-1-23-2.png)
 
 </details>
+
+<br>
+
+### Planning Methodology
+
+We have chosen to implement an Agile workflow centered around the Kanban framework, by using Trello to delegate and manage tasks. This approach was chosen as it allows for flexibility and transparency throughout development and allows us to easily see the progress and workflow of each team member. We discussed who would take on each requirement and used the Kanban board to assign those tasks as agreed upon. A GitHub repository was set up for documentation that both group members had collaborator access to, allowing us to each work on separate tasks in our own branch and then merge them into the same document.
+
+We also discussed our strengths and weaknesses and decided to split up responsibilities for the application development as so:
+
+- Mario - Client / front-end
+- Callum - Server / back-end
+
+Cards were created in Trello and labelled as 'client' or 'server' and assigned to the appropriate member to help separate concerns.
+
+We each set up a corresponding GitHub repository for our assigned sections and added the other as a collaborator. We agreed on a branching approach whereby each member works in a local branch and when finished, submits a pull request to merge it into the main branch once approved.
+
+CI/CD will be utilised by linking the corresponding repository to our chosen deployment; Netlify for the client and Railway for the server. This will allow us to easily test the application during development.
