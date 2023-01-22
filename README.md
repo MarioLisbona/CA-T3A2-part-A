@@ -14,6 +14,7 @@
 - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
 - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
   - [Planning Methodology](#planning-methodology)
+  - [Links](#links)
 
 ## **R1 - Description of your website**
 
@@ -227,7 +228,6 @@ User stories were then revised to reflect any changes to features and to provide
 
 ## **R6 - Screenshots of your Trello board**
 
-[Click to view Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
 
 Screenshots were taken at least daily and are dated in the file name.
 
@@ -262,3 +262,9 @@ Cards were created in Trello and labelled as 'client' or 'server' and assigned t
 We each set up a corresponding GitHub repository for our assigned sections and added the other as a collaborator. We agreed on a branching approach whereby each member works in a local branch and when finished, submits a pull request to merge it into the main branch once approved.
 
 CI/CD will be utilised by linking the corresponding repository to our chosen deployment; Netlify for the client and Railway for the server. This will allow us to easily test the application during development.
+
+### Links
+
+- [Client GitHub Repository](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client)
+- [Server GitHub Repository](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server)
+- [Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
