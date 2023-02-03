@@ -15,6 +15,12 @@
 - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
   - [Planning Methodology](#planning-methodology)
   - [Links](#links)
+- [**Part B Documentation**](#part-b-documentation)
+- [**Testing**](#testing)
+  - [Website Displays as expected](#website-displays-as-expected)
+  - [Member Registration Functions as expected](#member-registration-functions-as-expected)
+  - [Member Login Functions as expected](#member-login-functions-as-expected)
+  - [Member Logged-in State Changes Page Display as expected](#member-logged-in-state-changes-page-display-as-expected)
 
 ## **R1 - Description of your website**
 
@@ -268,3 +274,90 @@ CI/CD will be utilised by linking the corresponding repository to our chosen dep
 - [Client GitHub Repository](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client)
 - [Server GitHub Repository](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server)
 - [Trello Workspace](https://trello.com/invite/b/LD1ZUwnS/ATTIa1a5b199a938633ae2b66720915b02c4F4F552AD/t3a2-part-a-b)
+
+
+## **Part B Documentation**
+
+## **Testing**
+
+### Website Displays as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|When app first loads, home page displays navbar correctly|Navbar displays with logo/home button, Browse all destinations, Browse by continent dropdown, About, Login & register|✅    |
+|Browse by continent dropdown is displays continent options for all continents|Dropdown menu displays all continents (7 options)|✅    |
+|When app first loads, home page displays hero image|Hero image displays in full width|✅    |
+|When app first loads, home page displays CTA element|CTA element displays with welcome message and register & login buttons|✅    |
+|When app first loads, home page displays 8 latest preview cards|The 8 latest posts are dispalyed as preview cards, ordered by most recently posted|✅    |
+|Preview cards display all elements|Preview cards display title, author, continent, time since posted, preview of content and 'Read more' button|✅    |
+|'Browse by all Destinations' displays a page with preview cards for all posts|All posts on the site are represented by a preview card with the most recently posted at the top of the page|✅    |
+|Selecting a continent from the continent dropdown navigates to the correct page|Selecting a continent navigates to its corresponding page|✅    |
+|Continent page displays correct hero image for that continent|Hero image relating to the selected continent is displayed|✅    |
+|Continent page displays a relevant welcome message and blurb|Welcome message and blurb relating to the selected continent is displayed|✅    |
+|Continent page displays preview cards|All posts in the selected continent are displayed as preview cards with the latest posts displayed first|✅    |
+|About navbar link navigates to About page|The about page is correctly displayed with Lorum Ipsum text|✅    |
+|'Register' button navigates to Register page|The registration page is displayed when clicking a 'Register' button from any other page or navbar|✅    |
+|'Login' button navigates to Login page|The login page is displayed when clicking a 'Login' button from any other page or navbar|✅    |
+|Register page displays form and button elements correctly|Register page displays form with username, password, confirm password, 'Sign Up' button and 'Login' button for already registered members|✅    |
+|Login page displays form and button elements correctly|Login page displays form with username, password and 'Login' button |✅    |
+|Terms of Service footer link|Terms of Service page displays with title 'Terms of use and Conditions' |✅    |
+|Privacy Policy footer link|Privacy Policy page displays with title 'View our privacy policies' |✅    |
+|Contact Us footer link|Contact Us page displays with title 'Connect with us at the links below' and blurb and social media links |✅    |
+
+---
+
+### Member Registration Functions as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|1 or more empty fields in Register form|'Sign Up' button is greyed out and cannot be clicked|✅    |
+|All fields do not have green cheque mark in Register form|'Sign Up' button is greyed out and cannot be clicked|✅    |
+|Enter 'Tes' in 'Username' field|Error message displays: '4 to 24 characters, Must begin with a letter, Letters, numbers, underscores, hyphens allowed'|✅    |
+|Enter 'TestTestTestTestTestTest1' (25 characters) in 'Username' field|Error message displays: '4 to 24 characters, Must begin with a letter, Letters, numbers, underscores, hyphens allowed'|✅    |
+|Enter '1Test' in 'Username' field|Error message displays: '4 to 24 characters, Must begin with a letter, Letters, numbers, underscores, hyphens allowed'|✅    |
+|Enter 'TestTest!' in 'Username' field|Error message displays: '4 to 24 characters; Must begin with a letter; Letters, numbers, underscores, hyphens allowed'|✅    |
+|Enter 'Test-Test' in 'Username' field|Success green cheque mark displays|✅    |
+|Enter 'Test_Test' in 'Username' field|Success green cheque mark displays|✅    |
+|Enter 'TestTest1' in 'Username' field|Success green cheque mark displays|✅    |
+|Enter 'Pass' in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'PasswordPassword12345!@#%' (25 characters) in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'Password' in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'Password1' in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'Password@' in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'Password1^' in 'Password' field|Error message displays: '8 to 24 characters; Must include uppercase and lowercase letters, a number and a special character; Allowed special characters !@#$%'|✅    |
+|Enter 'Password123@' in 'Password' field|Success green cheque mark displays|✅    |
+|Enter '@123Password' in 'Password' field|Success green cheque mark displays|✅    |
+|Enter 'Password' in 'Password' field and in 'Confirm Password Field'|Error red cross displays on 'Password' field and success green cheque mark displays on 'Confirm Password' field.|✅    |
+|Enter 'Password' in 'Password' field and enter 'Password123@' in 'Confirm Password Field'|Error red cross displays on 'Password' field and on 'Confirm Password' field.|✅    |
+|Enter 'Password123@' in 'Password' field and in 'Confirm Password Field'|Success green cheque mark displays on 'Password' field and 'Confirm Password' field and 'Sign Up' button can be clicked.|✅    |
+|Enter username already in database with valid 'Password' and 'Confirm Password' fields and click 'Sign Up' button|Error popup window with message 'Registration failed - Username taken'|✅    |
+|Enter valid username and password in all fields and click 'Sign Up' button|'Registration Successfful' popup message is displayed and then Login page is displayed with username field populated|✅    |
+
+---
+
+### Member Login Functions as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|1 or more empty fields in Login form|Clicking 'Login' button prompts error message 'Please fill out this form'|✅    |
+|Enter 'Tes' (invalid username) in 'Username' field and 'Password1' (invalid/wrong password) in 'Password' field and click 'Login button'|Error popup window with message 'Login failed - Incorrect username or password'|✅    |
+|Enter 'Callum1' (valid username) in 'Username' field and 'Password123@' (wrong password) in 'Password' field and click 'Login button'|Error popup window with message 'Login failed - Incorrect username or password'|✅    |
+|Enter 'Test' (valid username) in 'Username' field and 'Callum123!' (correct password for different user) in 'Password' field and click 'Login button'|Error popup window with message 'Login failed - Incorrect username or password'|✅    |
+|Enter 'Callum1' (valid username) in 'Username' field and 'Callum123!' (correct password for user) in 'Password' field and click 'Login button'|App navigates to home page with welcome message: 'Hi Callum1, welcome to the forum'|✅    |
+
+---
+
+### Member Logged-in State Changes Page Display as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|Logging in as 'TestUser99' changes navbar correctly|'Login' and 'Register' buttons replaced by dropdown menu with 'TestUser99' as title|✅    |
+|Logging in as 'TestUser99' changes navbar correctly|Displays dropdown menu with 'TestUser99' as title includes 'My Posts', 'Create A Post', 'About' and 'Logout' options|✅    |
+|As 'TestUser99', select 'My Posts' from dropdown navigates to correct page|As 'TestUser99' displays message about creating a post with buttons for 'My Posts' and 'Create A Post'|✅    |
+|As 'TestUser99', select 'My Posts' from dropdown navigates to correct page and populates cards|Displays preview cards for posts where the author is 'TestUser99'|✅    |
+|As 'TestUser100', select 'My Posts' from dropdown does not populate cards|Display message 'You havn't made any posts yet.' with no preview cards displayed |✅    |
+|As 'TestUser99', select 'Create A Post' from dropdown or from 'My Posts' page|Displays post creation page with 'Create a post' message and post creation form|✅    |
+|As 'TestUser99', clicking 'Read more' on a preview card displays the post with comment form|Post and comment form display with submit button |✅    |
+|As 'TestUser99', clicking 'Log out' from dropdown logs the user out|App redirects to home page with normal non-member functionality and display |✅    |
+
+---
