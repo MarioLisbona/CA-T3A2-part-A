@@ -21,6 +21,8 @@
   - [Member Registration Functions as expected](#member-registration-functions-as-expected)
   - [Member Login Functions as expected](#member-login-functions-as-expected)
   - [Member Logged-in State Changes Page Display as expected](#member-logged-in-state-changes-page-display-as-expected)
+  - [Posts Create, Edit and Delete as expected](#posts-create-edit-and-delete-as-expected)
+  - [Comments Create, Edit and Delete as expected](#comments-create-edit-and-delete-as-expected)
 
 ## **R1 - Description of your website**
 
@@ -359,5 +361,38 @@ CI/CD will be utilised by linking the corresponding repository to our chosen dep
 |As 'TestUser99', select 'Create A Post' from dropdown or from 'My Posts' page|Displays post creation page with 'Create a post' message and post creation form|✅    |
 |As 'TestUser99', clicking 'Read more' on a preview card displays the post with comment form|Post and comment form display with submit button |✅    |
 |As 'TestUser99', clicking 'Log out' from dropdown logs the user out|App redirects to home page with normal non-member functionality and display |✅    |
+
+---
+
+### Posts Create, Edit and Delete as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|As 'TestUser99', click 'Submit' on post creation form with 1 or more empty fields|Message popup asking 'Please fill out this field'|✅    |
+|As 'TestUser99', enter 'Test Post' in 'Post Title' field, select 'Asia' from the dropdown, enter 'A test post about asia' in the 'Tell us your story' field and click 'Submit'|The full page post is displayed with matching content with and 'Edit Post' and 'Delete Post' buttons|✅    |
+|As 'TestUser100', view the post made by TestUser99 in the previosu test|The full page post is displayed with matching content. No buttons for 'Edit Post' or 'Delete Post' are present|✅    |
+|As 'TestUser99', clcik 'Edit Post' on the post made by TestUser99 in the previosu test|Form pops up with fields pre-populated by current post details and 'Save changes' button|✅    |
+|As 'TestUser99', enter 'EDIT Test Post' in 'Post Title' field, select 'Africa' from the dropdown, enter 'EDIT A test post about asia' in the 'Tell us your story' field and click 'Save changes'|Full post page changes to reflect changes submitted in the form|✅    |
+|As 'TestUser99', clcik 'Delete Post' on the post made by TestUser99 in the previosu test|Message popup asking to confirm deletion|✅    |
+|As 'TestUser99', clcik 'Confirm Delete' on message popup form previous test|Post and any comments are deleted and navigates to 'My Posts' page|✅    |
+|As 'TestUser99', clcik 'Save changes' on message popup from previous edit post test after session has expired|Popup message 'Whoops! Looks like you were logged out. Please log in and try again.' and redirected to login page|✅    |
+|As 'TestUser99', clcik 'Confirm Delete' on message popup from previous delete post test after session has expired|Popup message 'Whoops! Looks like you were logged out. Please log in and try again.' and redirected to login page|✅    |
+
+
+---
+
+### Comments Create, Edit and Delete as expected
+
+|Test  |Expected Outcome   |Test Outcome   |
+|----|----|----|
+|As 'TestUser99', click 'Submit' on comment creation form with an empty field|Message popup asking 'Please fill out this field'|✅    |
+|As 'TestUser99', enter 'Test Comment' in 'Coimment' field and click 'Submit'|The full page post is displayed with the comment below it with 'Edit Comment' and 'Delete COmment' buttons|✅    |
+|As 'TestUser100', view the post made by TestUser99 in the previosu test and view comment made by TestUser99 below the post|The full page post is displayed with comment below it. No buttons for 'Edit Comment' or 'Delete Comment' are present|✅    |
+|As 'TestUser99', clcik 'Edit Comment' on the comment made by TestUser99 in the previosu test|Form pops up with comment field pre-populated by current comment details and 'Save changes' button|✅    |
+|As 'TestUser99', enter 'EDIT Test Comment' in edit comment popup field and click 'Save changes'|Full post page changes to reflect changes to the comment|✅    |
+|As 'TestUser99', clcik 'Delete Comment' on the comment made by TestUser99 in the previosu test|Message popup asking to confirm deletion|✅    |
+|As 'TestUser99', clcik 'Confirm Delete' on message popup from previous test|Comments is deleted from the full post page|✅    |
+|As 'TestUser99', clcik 'Save changes' on message popup from previous edit comment test after session has expired|Popup message 'Whoops! Looks like you were logged out. Please log in and try again.' and redirected to login page|✅    |
+|As 'TestUser99', clcik 'Confirm Delete' on message popup from previous delete comment test after session has expired|Popup message 'Whoops! Looks like you were logged out. Please log in and try again.' and redirected to login page|✅    |
 
 ---
