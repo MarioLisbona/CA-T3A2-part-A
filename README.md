@@ -400,7 +400,11 @@ CI/CD will be utilised by linking the corresponding repository to our chosen dep
 
 Postman was used for extensive testing of server routing throughout development. Important routes and their responses are outlined below.
 
-**GET /posts**
+<details>
+
+<summary>GET /posts</summary>
+
+<br>
 
 Expected Outcome: Return array of all posts
 
@@ -440,9 +444,11 @@ Response
 ]
 ```
 
----
+</details>
 
-**GET /posts/:id**
+<details>
+
+<summary>GET /posts/:id</summary>
 
 Param: `63dcb429fce9476f6ce7599f`
 
@@ -468,9 +474,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**GET /posts/category/:category**
+<details>
+
+<summary>GET /posts/category/:category</summary>
 
 Param: `Asia`
 
@@ -512,9 +520,11 @@ Response:
 ]
 ```
 
----
+</details>
 
-**POST /auth/register**
+<details>
+
+<summary>POST /auth/register</summary>
 
 **Test 1**
 
@@ -570,9 +580,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**POST /auth/login**
+<details>
+
+<summary>POST /auth/login</summary>
 
 **Test 1**
 
@@ -622,9 +634,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**POST /posts/new**
+<details>
+
+<summary>POST /posts/new</summary>
 
 **Test 1**
 
@@ -715,9 +729,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**PUT /posts/:id**
+<details>
+
+<summary>PUT /posts/:id</summary>
 
 **Test 1**
 
@@ -812,9 +828,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**DELETE /posts/:id**
+<details>
+
+<summary>DELETE /posts/:id</summary>
 
 **Test 1**
 
@@ -842,7 +860,11 @@ Response:
 }
 ```
 
-**POST /comments/new**
+</details>
+
+<details>
+
+<summary>POST /comments/new</summary>
 
 **Test 1**
 
@@ -931,9 +953,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**PUT /comments/:id**
+<details>
+
+<summary>PUT /comments/:id</summary>
 
 **Test 1**
 
@@ -1021,9 +1045,11 @@ Response:
 }
 ```
 
----
+</details>
 
-**DELETE /comments/:id**
+<details>
+
+<summary>DELETE /comments/:id</summary>
 
 **Test 1**
 
@@ -1051,4 +1077,4 @@ Response:
 }
 ```
 
----
+</details>
