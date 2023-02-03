@@ -14,7 +14,7 @@
 - [**R5 - Wireframes for Desktop, Mobile and Tablet**](#r5---wireframes-for-desktop-mobile-and-tablet)
 - [**R6 - Screenshots of your Trello board**](#r6---screenshots-of-your-trello-board)
   - [Planning Methodology](#planning-methodology)
-  - [Links](#links)
+- [Links](#links)
 
 ## **R1 - Description of your website**
 
@@ -263,7 +263,7 @@ We each set up a corresponding GitHub repository for our assigned sections and a
 
 CI/CD will be utilised by linking the corresponding repository to our chosen deployment; Netlify for the client and Railway for the server. This will allow us to easily test the application during development.
 
-### Links
+## Links
 
 - [Client GitHub Repository](https://github.com/MarioLisbona/CA-T3A2-B-travelers-forum-client)
 - [Server GitHub Repository](https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server)
